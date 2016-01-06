@@ -1,7 +1,7 @@
 # Jasper-Installation-Develop
 How to install Jasper with a Google STT, create modules, and many more. Let's make you a talking robot.
 
-<h2><b>Jasper Installation</b></h2>
+<h2><b>Jasper Installation (WORK IN PROCESS</b></h2>
 
 So, you’re ready to get your own personal assistant? Follow the instructions.
 

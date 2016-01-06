@@ -23,11 +23,12 @@ So, you’re ready to get your own personal assistant? Follow the instructions.
 Default login:pi Default password:raspberry</li>
 
 <li>Type in sudo raspi-config and expand file system to OS (option 1)</li>
+</ul>
 
-			Now were ready to make a profile
-
-cd /jasper/client and type in python populate.py
+	<h2><b>		Now were ready to make a profile</b></h2>
+<ul>
+<li>cd /jasper/client and type in python populate.py
 Enter in your credintials
-When you get to the part about stt engine type in google
+When you get to the part about stt engine type in google</li>
 For the API key 
 </ul>

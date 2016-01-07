@@ -29,8 +29,8 @@ Default login:pi Default password:raspberry</li><br>
 <ul>
 <li>cd /jasper/client and type in python populate.py
 Enter in your credintials
-When you get to the part about stt engine type in google</li>
-<b>For the API -</b> 
+</li>
+<b>For the API and STT engine -</b> 
 <br>
 <b>Configuring the Google STT engine</b>
 <ul>
@@ -107,5 +107,10 @@ sudo dpkg -i libttspico-data_1.0+git20110131-2_all.deb
 sudo dpkg -i libttspico0_1.0+git20110131-2_armhf.deb
 sudo dpkg -i libttspico-utils_1.0+git20110131-2_armhf.deb</li>
 <br><li>
+<li>
+cd into ~/.jasper/profile.yml </li><br>
+<li> Add in under the stt engine </li>
+<li> tts_engine: pico-tts
+</li><br>
 Reboot the Raspberry Pi by typing “reboot.”</li></ul>
 <br>

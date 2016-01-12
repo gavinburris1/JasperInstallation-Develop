@@ -64,49 +64,49 @@ deb-src http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian/ whee
 If they are missing or commented, add them and save the file. <br>
 </li><br><br>
 2.) We need to update our packages, so in terminal type:
-<li>
+<li><br><br><hr>
 <center>sudo apt-get update</center>
-</li><br><br>
+</li><br><br><hr>
 3.) Install the following dependencies:
-<li>
+<li><br><br><hr>
 <center>sudo apt-get install fakeroot debhelper automake autoconf libtool help2man libpopt-dev hardening-wrapper<center>
-</li><br><br>
+</li><br><br><hr>
 Next, you’ll need to create a place to put the sources, again in terminal, type:
-<li>
+<li><hr>
 <center>mkdir pico_build
 cd pico_build
 apt-get source libttspico-utils</center>
-</li><br><br>
+</li><br><br><hr>
 4.) After downloading the source files there will be a new directory similar to svox-1.0+git20110131 <br><br><br>
 
-Navigate to it by typing:
+Navigate to it by typing:<br><br>
 <li>
-<center>cd svox-1.0+git20110131<center>
+<center><hr>cd svox-1.0+git20110131<hr><center>
 </li><br><br>
-5.) Compile the source.  This can take up to 20 minutes.
+5.) Compile the source.  This can take up to 20 minutes.<br>
 
 In Terminal, type:
-<li>
-<center>dpkg-buildpackage -rfakeroot -us -uc </center>
+<li><br><br>
+<center><hr>dpkg-buildpackage -rfakeroot -us -uc <hr></center>
 </li><br><br>
-There should now be four .deb packages in your pico_build folder.
+There should now be four .deb packages in your pico_build folder.<br><br>
 
 In terminal type:
-<li>
-<center> cd ~/pico_build/ </center>
+<li><br><br>
+<center> <hr>cd ~/pico_build/ <hr></center>
 </li><br><br>
 The following packages should be showing:
-<br>
+<br><hr>
 libttspico0_1.0+git20110131-2_armhf.deb<br>
 libttspico-data_1.0+git20110131-2_all.deb<br>
 libttspico-dev_1.0+git20110131-2_armhf.deb<br>
-libttspico-utils_1.0+git20110131-2_armhf.deb
-<br><li>sudo apt-get update</li><br>
+libttspico-utils_1.0+git20110131-2_armhf.deb<hr>
+<br><li><hr>sudo apt-get update<hr></li><br>
 6.) Install the packages in the following order:
-<li>
-<center>sudo dpkg -i libttspico-data_1.0+git20110131-2_all.deb<br>
+<li><br><br>
+<center><hr> sudo dpkg -i libttspico-data_1.0+git20110131-2_all.deb<br>
 sudo dpkg -i libttspico0_1.0+git20110131-2_armhf.deb<br>
-sudo dpkg -i libttspico-utils_1.0+git20110131-2_armhf.deb<br></center></li>
+sudo dpkg -i libttspico-utils_1.0+git20110131-2_armhf.deb<hr><br></center></li>
 <br><li>
 <li>
 <center>
